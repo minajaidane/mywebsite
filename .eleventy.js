@@ -50,7 +50,7 @@ module.exports = function (eleventyConfig) {
       includes: "_includes",
       data: "_data",
     },
-    pathPrefix: "/minajaidane",
+    pathPrefix: "/mywebsite",
     templateFormats: ["html", "liquid", "md", "njk"],
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "njk",
