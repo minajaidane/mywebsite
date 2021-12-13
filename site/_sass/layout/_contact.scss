@@ -1,0 +1,60 @@
+
+
+.form__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    form {
+    
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    
+        input {
+            margin-bottom:0.5rem;
+            border: none;
+        }
+    
+        textarea {
+            height: 6rem;
+            border: none;
+        }
+    
+        #email, #subject, #message, #name {
+            padding: 0.4rem;
+        }
+    
+        #submit {
+            margin-top: 0.5rem;
+            cursor: pointer;
+            padding: 0.4rem;
+        }
+    
+        .checkbox__form {
+            display: flex;
+            margin-bottom: 4rem;
+        }
+    
+        #submit:hover {
+            background: black;
+            color: whitesmoke;
+        }
+    }
+}
+
+@media (min-width: 40rem) {
+    .header__contact {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 70rem) {
+    .header__contact {
+        flex-wrap: nowrap;
+    }
+}
+
+
+

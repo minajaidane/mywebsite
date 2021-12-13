@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+eleventyNavigation:
+  key: Studies
+  order: 2
+---
+
+<div class = "container">
+   <div class = "information">
+      <h1>Studies</h1>
+
+    {% if collections.studies | length %}
+    <ul class="articles row">
+      {% for article in collections.studies %}
+        {% if article.url != page.url %}
+          <li class="work col-12 col-md-8 col-lg-5 design__card">
+            <a href="{{ article.url | url }}">
+              <img class="school__image" src="{{ '/static/images/school/' | url }}{{ article.data.image }}" alt="{{article.data.title}}" />
+            <h3>{{ article.data.richting }}</h3>
+              <p class = "school__CTA">More about {{article.data.richting}}</p>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+</div>

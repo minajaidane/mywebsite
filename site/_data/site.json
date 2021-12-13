@@ -1,0 +1,10 @@
+{
+    "title": "Home",
+    "domain": "Website of Mina Jaidane",
+    "description": "This is a site that will explain you everything about Mina and here carriere.",
+    "author": {
+        "name": "Mina Jaidane",
+        "email": "minajaid@student.arteveldehs.be"
+    },
+    "image": "/static/images/logo.jpg"
+}

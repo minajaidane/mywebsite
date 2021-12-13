@@ -1,0 +1,9 @@
+.btn-primary{
+    border: 1px solid $me-red;
+    background: $me-beige;
+
+}
+.btn-primary:hover{
+    background: $me-purple;
+    border: 1px solid $me-purple;
+}

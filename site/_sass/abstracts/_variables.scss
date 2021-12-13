@@ -1,0 +1,31 @@
+
+$font-family-source-sans-pro: 'Source Sans Pro', sans-serif;
+$font-family-source-code: 'Source Code Pro', monospace;;
+$font-family-montserrat: 'Montserrat', sans-serif;
+$font-family-ibm-plex-mono: 'IBM Plex Mono', monospace;
+$font-family-basic: 'Rajdhani', sans-serif;;
+
+
+$lic-green: #65BAA9;
+$lic-blue: #000099; 
+$lic-grey: #4A4453; 
+$lic-purple:#AFA8BA; 
+$lic-darkgreen:#005539; 
+$lic-lightgreen:#008C68; 
+
+$me-red:#B6866F;
+$me-beige:#F07A40;
+$me-white:#FFE7D3;
+$me-purple:#430000;
+$me-notbeige:#FFB678;
+
+
+
+h1 {
+    border-bottom: 4px solid $me-notbeige;
+    font-size: 4.5rem;
+    word-break: keep-all;
+    color: $me-notbeige;
+}
+
+$spacing: 18;

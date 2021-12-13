@@ -1,0 +1,12 @@
+.logo {
+    svg {
+        width: 7rem;
+        margin: 0.7rem;
+        fill: #009;
+    }
+
+    svg:hover{
+        fill:white;
+        transition: all ease 0.3s;
+    }
+}

@@ -1,0 +1,25 @@
+.markdown__page{
+        ul{
+                li{
+                text-decoration: none;
+                a{
+                        color: black;
+                }
+                }
+                a:hover{
+                        color:$me-purple;
+                }
+        }
+}
+
+
+.markdown__work{
+
+        width: 30rem;
+        margin: 2rem auto;
+        align-items: center;
+        max-width: 100%;
+        display: flex;
+
+    
+}

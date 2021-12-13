@@ -1,0 +1,34 @@
+
+.background_green{
+    background-color:$lic-green;
+    text-align: end;
+    h3{
+        padding-right: 2rem;
+        padding-top: 2rem;
+    }
+    .whoweare{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 1.8rem;
+        display: flex;
+
+            div{
+                padding: 1rem;
+            }
+     
+
+        img{
+            width: 17rem;
+            object-fit: cover;
+        }
+    }
+    a{
+        text-align: center;
+        color: black;
+        background-size: 3rem;
+        background-repeat: no-repeat;
+        padding: 0 2rem;
+        background-image: url("./assets/images/icons/next-arrow.svg");
+    }
+
+}
