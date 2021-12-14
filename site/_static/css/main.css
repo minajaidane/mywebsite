@@ -15482,10 +15482,13 @@ h1 {
   margin: 3rem 0;
 }
 
+.articles {
+  padding: 0;
+}
 .articles .design__card {
   list-style-type: none;
-  margin: 1.5rem;
   padding: 1rem;
+  text-align: center;
 }
 .articles .design__card img {
   width: 100%;
@@ -15499,6 +15502,7 @@ h1 {
   background: #FFB678;
   width: 100%;
   max-width: 100%;
+  word-break: break-all;
 }
 .articles .design__card a {
   color: #B6866F;
@@ -15783,6 +15787,10 @@ h1 .homepage {
     flex-wrap: nowrap;
   }
 }
+.big__font {
+  font-size: 2rem;
+}
+
 .goals__container {
   align-items: center;
   margin-bottom: 7rem;
@@ -15912,23 +15920,42 @@ main {
 
 .about__me {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 3rem;
 }
 .about__me--visuals {
-  width: 40%;
-  max-width: 90%;
+  margin: 0 auto;
+}
+.about__me--visuals img {
+  width: 15rem;
+  padding: 1rem;
 }
 .about__me--text {
-  width: 52%;
-  max-width: 100%;
-  margin-left: 2rem;
   background: rgba(255, 182, 120, 0.7);
   padding: 3rem;
   border-radius: 0.3em;
 }
 
+@media (min-width: 55rem) {
+  .about__me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .about__me--visuals {
+    width: 40%;
+    max-width: 90%;
+  }
+  .about__me--visuals img {
+    width: 40rem;
+  }
+  .about__me--text {
+    width: 52%;
+    max-width: 100%;
+    margin-left: 2rem;
+  }
+}
 .markdown__page ul li {
   text-decoration: none;
 }

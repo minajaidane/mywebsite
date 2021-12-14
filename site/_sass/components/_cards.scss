@@ -3,11 +3,11 @@ h1 {
 }
 
 .articles {
-   
+   padding:0;
     .design__card {
         list-style-type: none;
-        margin: 1.5rem;
         padding: 1rem;
+        text-align: center;
         img {
             width: 100%;
             opacity: 0.3;
@@ -20,6 +20,7 @@ h1 {
             background: $me-notbeige;
             width: 100%;
             max-width: 100%;
+            word-break: break-all;
 
         }
    
@@ -43,6 +44,8 @@ h1 {
         }
         
     }}
+
+ 
 
 .design__card:hover img{
     opacity: 1;

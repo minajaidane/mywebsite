@@ -11,24 +11,50 @@ main{
 }
 }
 
+
+
 .about__me{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 3rem;
- &--visuals{
-     width: 40%;
-     max-width: 90%;
- }
- &--text{
-     width: 52%;
-     max-width: 100%;
-     margin-left: 2rem;
-     background:rgba(255, 182, 120, 0.7);
-     padding: 3rem;
-     border-radius: 0.3em;
-  
-    
-    
- }
+    &--visuals{
+        margin: 0 auto;
+        img{
+            width: 15rem;
+            padding: 1rem;
+        }
+    }
+    &--text{
+        background:rgba(255, 182, 120, 0.7);
+        padding: 3rem;
+        border-radius: 0.3em;
+
+    }
 }
+
+@media (min-width: 55rem) {
+    .about__me{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3rem;
+     &--visuals{
+         width: 40%;
+         max-width: 90%;
+         img{
+             width: 40rem;
+         }
+     }
+     &--text{
+         width: 52%;
+         max-width: 100%;
+         margin-left: 2rem;
+
+        
+      
+        
+        
+     }
+    }
+}
+
