@@ -15468,14 +15468,10 @@ mark,
     margin-left: 91.6666666667%;
   }
 }
-.logo svg {
-  width: 7rem;
+.logo img {
+  width: 3rem;
   margin: 0.7rem;
   fill: #009;
-}
-.logo svg:hover {
-  fill: white;
-  transition: all ease 0.3s;
 }
 
 h1 {
@@ -15484,6 +15480,7 @@ h1 {
 
 .articles {
   padding: 0;
+  justify-content: center;
 }
 .articles .design__card {
   list-style-type: none;
