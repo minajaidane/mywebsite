@@ -11,7 +11,7 @@ h1 {
         text-align: center;
         img {
             width: 100%;
-            opacity: 0.3;
+            opacity: 0.6;
             max-width: 100%;
         }
         h3{
@@ -22,7 +22,8 @@ h1 {
             width: 100%;
             max-width: 100%;
             word-break: break-all;
-
+            font-size: 25px;
+            padding: 0.8rem;
         }
    
         a {
@@ -42,15 +43,25 @@ h1 {
           
                 
             }
+            
         }
         
     }}
+    .socials__work{
+            list-style-type: none;  
+            display: flex; 
+            justify-content: center;
+        }
+    .socials__work a:hover svg{
+            fill: $me-beige;
+            transition: all ease 0.3s;
+    }
 
  
 
 .design__card:hover img{
     opacity: 1;
-    transition: all ease 0.5s;
+    transition: all ease 0.3s;
 }
 .design__card:hover .work__CTA{
     color:$me-purple;

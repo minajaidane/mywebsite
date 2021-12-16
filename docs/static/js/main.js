@@ -40,7 +40,7 @@
 
 
      typer () {
-      const words = ['Mina Jaidane.', 'Digital Marketeer.', 'UI-UX Designer.','Eventmanager'];
+      const words = ['Mina Jaidane.', 'Digital Marketeer.', 'UI-UX Designer.','An Eventmanager'];
       let counter = 0;
       let index = 0;
       let currentWord = '';

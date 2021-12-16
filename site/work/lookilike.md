@@ -4,7 +4,8 @@ client: Look I Like
 tag: work
 highlighted: true
 img: "lookilike.jpeg"
-Instagram: "instagram.com/lookilike"
+instagram: "https://www.instagram.com/look__i__like/"
+linkedin: "https://www.linkedin.com/company/look-i-like/"
 ---
 
 <div class="markdown__page">

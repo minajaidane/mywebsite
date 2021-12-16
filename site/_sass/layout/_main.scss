@@ -17,11 +17,17 @@ main{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding: 1rem;
     &--visuals{
         margin: 0 auto;
-        img{
-            width: 15rem;
-            padding: 1rem;
+        &--home{
+            width: 93%;
+            margin: 1rem;
+        }
+        &--about{
+            width: 60%;
+            margin-top: 1rem;
+
         }
     }
     &--text{
@@ -41,8 +47,16 @@ main{
      &--visuals{
          width: 40%;
          max-width: 90%;
-         img{
-             width: 30rem;
+         margin: 0;
+         
+         &--home{
+                 width: 40rem;
+         }
+         &--about{
+                 width: 90%;
+                 margin: 0rem;
+
+             
          }
      }
      &--text{
@@ -58,3 +72,6 @@ main{
     }
 }
 
+.about__me--image{
+    width: 30rem;
+}
