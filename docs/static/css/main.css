@@ -15853,6 +15853,9 @@ main {
   width: 30rem;
 }
 
+.markdown__page {
+  margin-bottom: 15rem;
+}
 .markdown__page ul li a {
   color: black;
   text-decoration: underline;
