@@ -48,10 +48,15 @@ h1 {
         
     }}
     .socials__work{
-            list-style-type: none;  
-            display: flex; 
-            justify-content: center;
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 16rem;
+        svg{
+            width: 3rem;
         }
+    }
+        
     .socials__work a:hover svg{
             fill: $me-beige;
             transition: all ease 0.3s;

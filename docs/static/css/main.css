@@ -15522,7 +15522,11 @@ h1 {
 .socials__work {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-bottom: 16rem;
+}
+.socials__work svg {
+  width: 3rem;
 }
 
 .socials__work a:hover svg {
@@ -15853,9 +15857,6 @@ main {
   width: 30rem;
 }
 
-.markdown__page {
-  margin-bottom: 15rem;
-}
 .markdown__page ul li a {
   color: black;
   text-decoration: underline;
