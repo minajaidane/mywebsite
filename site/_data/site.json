@@ -1,10 +1,10 @@
 {
-    "title": "Home",
-    "domain": "Website of Mina Jaidane",
-    "description": "This is a site that will explain you everything about Mina and here carriere.",
+    "title": "Mina Jaidane",
+    "domain": "Personal Website",
+    "description": "Hi welcome! I'm Mina Jaidane, on this site i'm going to tell you all about myself.",
     "author": {
         "name": "Mina Jaidane",
-        "email": "minajaid@student.arteveldehs.be"
+        "email": "info@minajaidane.com"
     },
     "image": "/static/images/logo.jpg"
 }
