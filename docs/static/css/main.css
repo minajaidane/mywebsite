@@ -15500,25 +15500,30 @@ h1 {
   width: 100%;
   max-width: 100%;
   word-break: break-all;
-  font-size: 25px;
+  font-size: 17px;
   padding: 0.8rem;
 }
 .articles .design__card a {
   color: #B6866F;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   text-decoration: none;
+  margin-top: 1rem;
 }
 .articles .design__card a .work__text {
   margin-top: 1rem;
 }
-.articles .design__card a .work__text .work__client {
+.articles .design__card a .work__text p {
   font-style: italic;
-  margin: 0;
-  padding: 0;
+  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
+@media (min-width: 40rem) {
+  .articles h3 {
+    font-size: 25px;
+  }
+}
 .socials__work {
   list-style-type: none;
   display: flex;
@@ -15534,13 +15539,20 @@ h1 {
   transition: all ease 0.3s;
 }
 
+.work__CTA {
+  opacity: 0;
+  justify-content: center;
+}
+
 .design__card:hover img {
   opacity: 1;
   transition: all ease 0.3s;
 }
 
 .design__card:hover .work__CTA {
-  color: #430000;
+  color: #fff;
+  opacity: 1;
+  transition: all ease 0.3s;
 }
 
 .nav {
