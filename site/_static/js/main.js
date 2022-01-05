@@ -63,9 +63,9 @@
           if (letter.length === currentWord.length) {
               counter++;
               index = 0;
-              await delay(0.2);
+              await delay(0.3);
           };
-          setTimeout(type, 150);
+          setTimeout(type, 200);
       }());
   },
 

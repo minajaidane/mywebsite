@@ -15705,6 +15705,9 @@ body {
   background: #FFE7D3;
 }
 
+h1 {
+  height: 7rem;
+}
 h1 .homepage {
   color: #FFB678;
   font-size: 4rem;
@@ -15863,6 +15866,7 @@ main {
     width: 52%;
     max-width: 100%;
     margin-left: 2rem;
+    font-size: 1.4rem;
   }
 }
 .about__me--image {

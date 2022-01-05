@@ -10,7 +10,7 @@ linkedin: "https://www.linkedin.com/company/maison-rouge/about/"
 
 <div class="markdown__page">
 
-# Maison Rouge - Kelner 
+# Maison Rouge - Catering 
 
 <img class='markdown__work' src="../../static/images/work/maisonrougetmlwinter.jpeg"  />
 

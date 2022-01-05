@@ -11,7 +11,7 @@ linkedin: "https://www.linkedin.com/company/onkruid/"
 
 <div class="markdown__page">
 
-# Communicatie stagiair and& en Zomer van Asiat 
+# Communication intern and& en Zomer van Asiat 
 
 <img class='markdown__work' src="../../static/images/work/onkruid2020.jpg"  />
 
