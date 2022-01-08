@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    height: 7rem;
+    height: 16rem;
     .homepage{
 
         // border-bottom: 4px solid #009;
@@ -17,6 +17,12 @@ h1 {
         padding: 0;
         border-bottom: none;
         border-top: none;
+    }
+}
+
+@media (min-width: 55rem) {
+    h1{
+        height: 7rem;
     }
 }
 
