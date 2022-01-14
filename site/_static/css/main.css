@@ -15930,3 +15930,9 @@ main {
 .footer__rights p {
   margin: 0;
 }
+.footer__rights a {
+  color: black;
+}
+.footer__rights a:hover {
+  color: #430000;
+}

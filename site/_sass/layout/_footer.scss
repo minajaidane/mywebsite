@@ -42,4 +42,10 @@
     p {
         margin: 0;
     }
+    a{
+        color: black;
+    }
+    a:hover{
+        color: $me-purple;
+    }
 }
